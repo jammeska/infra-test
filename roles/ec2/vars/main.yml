@@ -1,0 +1,17 @@
+---
+# vars file for ec2
+instance_tag:
+        - master
+        - slave1
+        - slave2
+
+python_pkgs:
+        - boto
+        - boto3
+
+sg_name: Allow_All_SG
+region_name: us-east-1
+subnet_name: subnet-087aa4b6e6e50f06a
+ami_id: ami-0c02fb55956c7d316
+keypair: maydarous
+instance_flavour: t2.micro
